@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lislis.mesexercices.AlertDialogueActivity">
+
+    <TextView
+        android:id="@+id/text_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Changements"
+        android:textSize="25sp"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/changer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Changer"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="30dp"
+        />
+
+    <Button
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset values"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="30dp"
+        />
+
+
+</LinearLayout>
